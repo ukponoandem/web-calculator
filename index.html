@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WEB CALCULATOR</h1>
+    <p>welcome! </p>
+    <button onclick="add()" style="background-color: red;color: black;padding: 15px;">Add</button>
+    <button onclick="subtract()" style="background-color: blue;color: black;padding: 15px;">Subtract</button>
+    <button onclick="divide()" style="background-color: orange; color: black;padding: 15px;">Division</button>
+    <button onclick="multiple()" style="background-color: green; color: black;padding: 15px;">Multiplication</button>
+    
+    <script>
+        function add(){
+        let num1 =parseFloat(prompt("Enter number one..."))
+        let num2 =parseFloat(prompt("Enter number two..."))
+        document.write(`The sum of ${num1} and ${num2} is ${num1+num2}`)
+        }
+        function subtract(){
+        let num1 =parseFloat(prompt("Enter number one..."))
+        let num2 =parseFloat(prompt("Enter number two..."))
+        document.write(`The sum of ${num1} and ${num2} is ${num1-num2}`)
+        }
+
+        function divide(){
+        let num1 =parseFloat(prompt("Enter number one..."))
+        let num2 =parseFloat(prompt("Enter number two..."))
+        document.write(`The sum of ${num1} and ${num2} is ${num1/num2}`)
+        }
+        function multiple(){
+        let num1 =parseFloat(prompt("Enter number one..."))
+        let num2 =parseFloat(prompt("Enter number two..."))
+        document.write(`The sum of ${num1} and ${num2} is ${num1*num2}`)
+        }
+
+
+    </script>
+</body>
+</html>
